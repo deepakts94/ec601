@@ -14,9 +14,9 @@ using namespace std;
 const char* keys =
 {
     "{ help h      |                     | print help message }"
-    "{ image i     | ../data/NYC.jpg     | specify input image}"
+    "{ image i     |  // add path here// | specify input image}"
     "{ camera c    |                     | enable camera capturing }"
-    "{ video v     |                     | use video as input }"
+    "{ video v     |  //add path here//  | use video as input }"
     "{ directory d |                     | images directory}"
 };
 
@@ -80,6 +80,7 @@ int main(int argc, char** argv)
 
     string pattern_glob = "";
     string video_filename = "../data/test1.mp4";
+    // string video_filename = "../data/test1.mp4";
     int camera_id = -1;
     if (parser.has("directory"))
     {
