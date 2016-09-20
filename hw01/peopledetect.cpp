@@ -14,9 +14,9 @@ using namespace std;
 const char* keys =
 {
     "{ help h      |                     | print help message }"
-    "{ image i     |                     | specify input image}"
+    "{ image i     | ../data/NYC.jpg     | specify input image}"
     "{ camera c    |                     | enable camera capturing }"
-    "{ video v     | ../data/test1.mp4 | use video as input }"
+    "{ video v     |                     | use video as input }"
     "{ directory d |                     | images directory}"
 };
 
