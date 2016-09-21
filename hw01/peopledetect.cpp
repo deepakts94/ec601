@@ -16,7 +16,7 @@ const char* keys =
     "{ help h      |                     | print help message }"
     "{ image i     |                     | specify input image}"
     "{ camera c    |                     | enable camera capturing }"
-    "{ video v     |                     | use video as input }"
+    "{ video v     |/home/deepak/gt/data/test1.mp4| use video as input }"
     "{ directory d |                     | images directory}"
 };
 
@@ -55,7 +55,7 @@ static void detectAndDraw(const HOGDescriptor &hog, Mat &img)
         r.width = cvRound(r.width*0.8);
         r.y += cvRound(r.height*0.07);
         r.height = cvRound(r.height*0.8);
-        rectangle(img, r.tl(), r.br(), cv::Scalar(0,255,0), 3);
+        rectangle(img, r.tl(), r.br(), cv::Scalar(255,0,0), 3);
     }
 }
 
