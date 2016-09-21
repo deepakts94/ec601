@@ -1,5 +1,0 @@
-g++ -o grabcut grabcut.cpp `pkg-config opencv --cflags --libs`
-jkght
-ldkhflds
-sdlfbnd
-dlfkn
